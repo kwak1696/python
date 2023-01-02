@@ -1,0 +1,16 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool]
+[tool.poetry]
+authors = ["kwak1696 <kwak1696@kakao.com>"]
+description = ""
+name = "coinvalue"
+version = "0.1.0"
+[tool.poetry.dependencies]
+ccxt = "^1.91.52"
+python = "^3.8"
+bs4 = "^0.0.1"
+[tool.poetry.dev-dependencies]
+bs4 = "^0.0.1"
